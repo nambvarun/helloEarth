@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18208C2B1BB6369A003237F1 /* geography-class_medres.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 18208C2A1BB6369A003237F1 /* geography-class_medres.mbtiles */; settings = {ASSET_TAGS = (); }; };
+		18208C2D1BB6648D003237F1 /* circle-stroked-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18208C2C1BB6648D003237F1 /* circle-stroked-24@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18208C2E1BB66586003237F1 /* circle-stroked-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18208C2C1BB6648D003237F1 /* circle-stroked-24@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18208C2F1BB66586003237F1 /* circle-stroked-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18208C2C1BB6648D003237F1 /* circle-stroked-24@2x.png */; settings = {ASSET_TAGS = (); }; };
+		18208C311BB681EE003237F1 /* alcohol-shop-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18208C301BB681EE003237F1 /* alcohol-shop-24@2x.png */; settings = {ASSET_TAGS = (); }; };
+		1866E59F1BB6D66600118319 /* world_countries.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 1866E59E1BB6D66600118319 /* world_countries.mbtiles */; settings = {ASSET_TAGS = (); }; };
+		1866E5AE1BB6E94200118319 /* DataExtract.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866E5AD1BB6E94200118319 /* DataExtract.m */; settings = {ASSET_TAGS = (); }; };
+		1866E5D31BB7431800118319 /* ArticleScreenMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866E5D01BB7431800118319 /* ArticleScreenMarker.m */; settings = {ASSET_TAGS = (); }; };
+		1866E5D61BB743EA00118319 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 1866E5D51BB743EA00118319 /* data.json */; settings = {ASSET_TAGS = (); }; };
+		18B8B3E61BB628550004A0D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8B3E51BB628550004A0D3 /* main.m */; };
+		18B8B3E91BB628550004A0D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8B3E81BB628550004A0D3 /* AppDelegate.m */; };
+		18B8B3EC1BB628550004A0D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8B3EB1BB628550004A0D3 /* ViewController.m */; };
+		18B8B3EF1BB628550004A0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B8B3ED1BB628550004A0D3 /* Main.storyboard */; };
+		18B8B3F11BB628550004A0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B8B3F01BB628550004A0D3 /* Assets.xcassets */; };
+		18B8B3FF1BB628550004A0D3 /* helloEarth2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8B3FE1BB628550004A0D3 /* helloEarth2Tests.m */; };
+		18B8B40A1BB628550004A0D3 /* helloEarth2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8B4091BB628550004A0D3 /* helloEarth2UITests.m */; };
+		18B8B4181BB628A40004A0D3 /* WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8B4171BB628A40004A0D3 /* WhirlyGlobeMaplyComponent.framework */; };
+		18B8B41A1BB628AD0004A0D3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8B4191BB628AD0004A0D3 /* CoreLocation.framework */; };
+		18B8B41C1BB628BE0004A0D3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8B41B1BB628BE0004A0D3 /* libc++.tbd */; };
+		18B8B41E1BB628CF0004A0D3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8B41D1BB628CE0004A0D3 /* libz.tbd */; };
+		18B8B4201BB628DD0004A0D3 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8B41F1BB628DD0004A0D3 /* libxml2.tbd */; };
+		18B8B4221BB628EC0004A0D3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8B4211BB628EC0004A0D3 /* libsqlite3.tbd */; };
+		8B0753EF1BB7F53E00978C35 /* AP Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0753EE1BB7F53E00978C35 /* AP Icon.png */; settings = {ASSET_TAGS = (); }; };
+		8B0753F61BB8285800978C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0753F51BB8285800978C35 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		8B7931661BB7706E00981998 /* AnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B7931651BB7706E00981998 /* AnnotationView.xib */; settings = {ASSET_TAGS = (); }; };
+		8B79316A1BB7B29000981998 /* AnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7931681BB773F300981998 /* AnnotationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B8B3FB1BB628550004A0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B8B3D91BB628540004A0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B8B3E01BB628550004A0D3;
+			remoteInfo = helloEarth2;
+		};
+		18B8B4061BB628550004A0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B8B3D91BB628540004A0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B8B3E01BB628550004A0D3;
+			remoteInfo = helloEarth2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18208C2A1BB6369A003237F1 /* geography-class_medres.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = "geography-class_medres.mbtiles"; sourceTree = "<group>"; };
+		18208C2C1BB6648D003237F1 /* circle-stroked-24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-stroked-24@2x.png"; sourceTree = "<group>"; };
+		18208C301BB681EE003237F1 /* alcohol-shop-24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alcohol-shop-24@2x.png"; path = "WhirlyGlobe_Maply_Distribution_2_3/resources/maki icons/alcohol-shop-24@2x.png"; sourceTree = "<group>"; };
+		1866E59E1BB6D66600118319 /* world_countries.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = world_countries.mbtiles; sourceTree = "<group>"; };
+		1866E5AD1BB6E94200118319 /* DataExtract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataExtract.m; sourceTree = "<group>"; };
+		1866E5AF1BB6E9B700118319 /* DataExtract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataExtract.h; sourceTree = "<group>"; };
+		1866E5D01BB7431800118319 /* ArticleScreenMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleScreenMarker.m; sourceTree = "<group>"; };
+		1866E5D11BB7431800118319 /* ArticleScreenMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleScreenMarker.h; sourceTree = "<group>"; };
+		1866E5D51BB743EA00118319 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		18B8B3E11BB628550004A0D3 /* helloEarth2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloEarth2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B8B3E51BB628550004A0D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B8B3E71BB628550004A0D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B8B3E81BB628550004A0D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B8B3EA1BB628550004A0D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18B8B3EB1BB628550004A0D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18B8B3EE1BB628550004A0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B8B3F01BB628550004A0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B8B3F51BB628550004A0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B8B3FA1BB628550004A0D3 /* helloEarth2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloEarth2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B8B3FE1BB628550004A0D3 /* helloEarth2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloEarth2Tests.m; sourceTree = "<group>"; };
+		18B8B4001BB628550004A0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B8B4051BB628550004A0D3 /* helloEarth2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloEarth2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B8B4091BB628550004A0D3 /* helloEarth2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloEarth2UITests.m; sourceTree = "<group>"; };
+		18B8B40B1BB628550004A0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B8B4171BB628A40004A0D3 /* WhirlyGlobeMaplyComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WhirlyGlobeMaplyComponent.framework; path = WhirlyGlobe_Maply_Distribution_2_3/WhirlyGlobeMaplyComponent.framework; sourceTree = "<group>"; };
+		18B8B4191BB628AD0004A0D3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18B8B41B1BB628BE0004A0D3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		18B8B41D1BB628CE0004A0D3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18B8B41F1BB628DD0004A0D3 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		18B8B4211BB628EC0004A0D3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8B0753EE1BB7F53E00978C35 /* AP Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AP Icon.png"; sourceTree = "<group>"; };
+		8B0753F51BB8285800978C35 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B7931651BB7706E00981998 /* AnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationView.xib; sourceTree = "<group>"; };
+		8B7931671BB773F300981998 /* AnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationView.h; sourceTree = "<group>"; };
+		8B7931681BB773F300981998 /* AnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B8B3DE1BB628550004A0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B8B4221BB628EC0004A0D3 /* libsqlite3.tbd in Frameworks */,
+				18B8B4201BB628DD0004A0D3 /* libxml2.tbd in Frameworks */,
+				18B8B41E1BB628CF0004A0D3 /* libz.tbd in Frameworks */,
+				18B8B41C1BB628BE0004A0D3 /* libc++.tbd in Frameworks */,
+				18B8B41A1BB628AD0004A0D3 /* CoreLocation.framework in Frameworks */,
+				18B8B4181BB628A40004A0D3 /* WhirlyGlobeMaplyComponent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B8B3F71BB628550004A0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B8B4021BB628550004A0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18208C271BB6341E003237F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B0753EE1BB7F53E00978C35 /* AP Icon.png */,
+				1866E5D51BB743EA00118319 /* data.json */,
+				1866E59E1BB6D66600118319 /* world_countries.mbtiles */,
+				18208C301BB681EE003237F1 /* alcohol-shop-24@2x.png */,
+				18208C2C1BB6648D003237F1 /* circle-stroked-24@2x.png */,
+				18208C2A1BB6369A003237F1 /* geography-class_medres.mbtiles */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		18B8B3D81BB628540004A0D3 = {
+			isa = PBXGroup;
+			children = (
+				18208C271BB6341E003237F1 /* Resources */,
+				18B8B4211BB628EC0004A0D3 /* libsqlite3.tbd */,
+				18B8B41F1BB628DD0004A0D3 /* libxml2.tbd */,
+				18B8B41D1BB628CE0004A0D3 /* libz.tbd */,
+				18B8B41B1BB628BE0004A0D3 /* libc++.tbd */,
+				18B8B3E31BB628550004A0D3 /* helloEarth2 */,
+				18B8B3FD1BB628550004A0D3 /* helloEarth2Tests */,
+				18B8B4081BB628550004A0D3 /* helloEarth2UITests */,
+				18B8B3E21BB628550004A0D3 /* Products */,
+				18B8B4191BB628AD0004A0D3 /* CoreLocation.framework */,
+				18B8B4171BB628A40004A0D3 /* WhirlyGlobeMaplyComponent.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		18B8B3E21BB628550004A0D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B8B3E11BB628550004A0D3 /* helloEarth2.app */,
+				18B8B3FA1BB628550004A0D3 /* helloEarth2Tests.xctest */,
+				18B8B4051BB628550004A0D3 /* helloEarth2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B8B3E31BB628550004A0D3 /* helloEarth2 */ = {
+			isa = PBXGroup;
+			children = (
+				8B0753F51BB8285800978C35 /* LaunchScreen.storyboard */,
+				8B7931621BB766B800981998 /* Model */,
+				8B7931601BB7669100981998 /* View */,
+				8B7931611BB7669B00981998 /* Controller */,
+				18B8B3E71BB628550004A0D3 /* AppDelegate.h */,
+				18B8B3E81BB628550004A0D3 /* AppDelegate.m */,
+				18B8B3ED1BB628550004A0D3 /* Main.storyboard */,
+				18B8B3F01BB628550004A0D3 /* Assets.xcassets */,
+				18B8B3F51BB628550004A0D3 /* Info.plist */,
+				18B8B3E41BB628550004A0D3 /* Supporting Files */,
+			);
+			path = helloEarth2;
+			sourceTree = "<group>";
+		};
+		18B8B3E41BB628550004A0D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B8B3E51BB628550004A0D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B8B3FD1BB628550004A0D3 /* helloEarth2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18B8B3FE1BB628550004A0D3 /* helloEarth2Tests.m */,
+				18B8B4001BB628550004A0D3 /* Info.plist */,
+			);
+			path = helloEarth2Tests;
+			sourceTree = "<group>";
+		};
+		18B8B4081BB628550004A0D3 /* helloEarth2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B8B4091BB628550004A0D3 /* helloEarth2UITests.m */,
+				18B8B40B1BB628550004A0D3 /* Info.plist */,
+			);
+			path = helloEarth2UITests;
+			sourceTree = "<group>";
+		};
+		8B7931601BB7669100981998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1866E5D11BB7431800118319 /* ArticleScreenMarker.h */,
+				1866E5D01BB7431800118319 /* ArticleScreenMarker.m */,
+				8B7931651BB7706E00981998 /* AnnotationView.xib */,
+				8B7931671BB773F300981998 /* AnnotationView.h */,
+				8B7931681BB773F300981998 /* AnnotationView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8B7931611BB7669B00981998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B8B3EA1BB628550004A0D3 /* ViewController.h */,
+				18B8B3EB1BB628550004A0D3 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8B7931621BB766B800981998 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1866E5AF1BB6E9B700118319 /* DataExtract.h */,
+				1866E5AD1BB6E94200118319 /* DataExtract.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B8B3E01BB628550004A0D3 /* helloEarth2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B8B40E1BB628550004A0D3 /* Build configuration list for PBXNativeTarget "helloEarth2" */;
+			buildPhases = (
+				18B8B3DD1BB628550004A0D3 /* Sources */,
+				18B8B3DE1BB628550004A0D3 /* Frameworks */,
+				18B8B3DF1BB628550004A0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloEarth2;
+			productName = helloEarth2;
+			productReference = 18B8B3E11BB628550004A0D3 /* helloEarth2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B8B3F91BB628550004A0D3 /* helloEarth2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B8B4111BB628550004A0D3 /* Build configuration list for PBXNativeTarget "helloEarth2Tests" */;
+			buildPhases = (
+				18B8B3F61BB628550004A0D3 /* Sources */,
+				18B8B3F71BB628550004A0D3 /* Frameworks */,
+				18B8B3F81BB628550004A0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B8B3FC1BB628550004A0D3 /* PBXTargetDependency */,
+			);
+			name = helloEarth2Tests;
+			productName = helloEarth2Tests;
+			productReference = 18B8B3FA1BB628550004A0D3 /* helloEarth2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B8B4041BB628550004A0D3 /* helloEarth2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B8B4141BB628550004A0D3 /* Build configuration list for PBXNativeTarget "helloEarth2UITests" */;
+			buildPhases = (
+				18B8B4011BB628550004A0D3 /* Sources */,
+				18B8B4021BB628550004A0D3 /* Frameworks */,
+				18B8B4031BB628550004A0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B8B4071BB628550004A0D3 /* PBXTargetDependency */,
+			);
+			name = helloEarth2UITests;
+			productName = helloEarth2UITests;
+			productReference = 18B8B4051BB628550004A0D3 /* helloEarth2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B8B3D91BB628540004A0D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Michael Xu";
+				TargetAttributes = {
+					18B8B3E01BB628550004A0D3 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HEQN2863U5;
+					};
+					18B8B3F91BB628550004A0D3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 18B8B3E01BB628550004A0D3;
+					};
+					18B8B4041BB628550004A0D3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 18B8B3E01BB628550004A0D3;
+					};
+				};
+			};
+			buildConfigurationList = 18B8B3DC1BB628540004A0D3 /* Build configuration list for PBXProject "helloEarth2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B8B3D81BB628540004A0D3;
+			productRefGroup = 18B8B3E21BB628550004A0D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B8B3E01BB628550004A0D3 /* helloEarth2 */,
+				18B8B3F91BB628550004A0D3 /* helloEarth2Tests */,
+				18B8B4041BB628550004A0D3 /* helloEarth2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B8B3DF1BB628550004A0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18208C2B1BB6369A003237F1 /* geography-class_medres.mbtiles in Resources */,
+				18208C311BB681EE003237F1 /* alcohol-shop-24@2x.png in Resources */,
+				18B8B3F11BB628550004A0D3 /* Assets.xcassets in Resources */,
+				8B0753F61BB8285800978C35 /* LaunchScreen.storyboard in Resources */,
+				18B8B3EF1BB628550004A0D3 /* Main.storyboard in Resources */,
+				8B0753EF1BB7F53E00978C35 /* AP Icon.png in Resources */,
+				1866E59F1BB6D66600118319 /* world_countries.mbtiles in Resources */,
+				1866E5D61BB743EA00118319 /* data.json in Resources */,
+				8B7931661BB7706E00981998 /* AnnotationView.xib in Resources */,
+				18208C2D1BB6648D003237F1 /* circle-stroked-24@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B8B3F81BB628550004A0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18208C2E1BB66586003237F1 /* circle-stroked-24@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B8B4031BB628550004A0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18208C2F1BB66586003237F1 /* circle-stroked-24@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B8B3DD1BB628550004A0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B79316A1BB7B29000981998 /* AnnotationView.m in Sources */,
+				1866E5D31BB7431800118319 /* ArticleScreenMarker.m in Sources */,
+				1866E5AE1BB6E94200118319 /* DataExtract.m in Sources */,
+				18B8B3EC1BB628550004A0D3 /* ViewController.m in Sources */,
+				18B8B3E91BB628550004A0D3 /* AppDelegate.m in Sources */,
+				18B8B3E61BB628550004A0D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B8B3F61BB628550004A0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B8B3FF1BB628550004A0D3 /* helloEarth2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B8B4011BB628550004A0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B8B40A1BB628550004A0D3 /* helloEarth2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B8B3FC1BB628550004A0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B8B3E01BB628550004A0D3 /* helloEarth2 */;
+			targetProxy = 18B8B3FB1BB628550004A0D3 /* PBXContainerItemProxy */;
+		};
+		18B8B4071BB628550004A0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B8B3E01BB628550004A0D3 /* helloEarth2 */;
+			targetProxy = 18B8B4061BB628550004A0D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B8B3ED1BB628550004A0D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B8B3EE1BB628550004A0D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B8B40C1BB628550004A0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B8B40D1BB628550004A0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B8B40F1BB628550004A0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhirlyGlobe_Maply_Distribution_2_3",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"Desktop/WhirlyGlobeMaplyComponent.framework/Headers/\"",
+					"<Multiple",
+					"values>",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = helloEarth2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloEarth2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		18B8B4101BB628550004A0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhirlyGlobe_Maply_Distribution_2_3",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"Desktop/WhirlyGlobeMaplyComponent.framework/Headers/\"",
+					"<Multiple",
+					"values>",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"Desktop/WhirlyGlobeMaplyComponent.framework/Headers/“";
+				INFOPLIST_FILE = helloEarth2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloEarth2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		18B8B4121BB628550004A0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = helloEarth2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloEarth2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloEarth2.app/helloEarth2";
+			};
+			name = Debug;
+		};
+		18B8B4131BB628550004A0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = helloEarth2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloEarth2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloEarth2.app/helloEarth2";
+			};
+			name = Release;
+		};
+		18B8B4151BB628550004A0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = helloEarth2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloEarth2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = helloEarth2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18B8B4161BB628550004A0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = helloEarth2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloEarth2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = helloEarth2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B8B3DC1BB628540004A0D3 /* Build configuration list for PBXProject "helloEarth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B8B40C1BB628550004A0D3 /* Debug */,
+				18B8B40D1BB628550004A0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B8B40E1BB628550004A0D3 /* Build configuration list for PBXNativeTarget "helloEarth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B8B40F1BB628550004A0D3 /* Debug */,
+				18B8B4101BB628550004A0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B8B4111BB628550004A0D3 /* Build configuration list for PBXNativeTarget "helloEarth2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B8B4121BB628550004A0D3 /* Debug */,
+				18B8B4131BB628550004A0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B8B4141BB628550004A0D3 /* Build configuration list for PBXNativeTarget "helloEarth2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B8B4151BB628550004A0D3 /* Debug */,
+				18B8B4161BB628550004A0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B8B3D91BB628540004A0D3 /* Project object */;
+}

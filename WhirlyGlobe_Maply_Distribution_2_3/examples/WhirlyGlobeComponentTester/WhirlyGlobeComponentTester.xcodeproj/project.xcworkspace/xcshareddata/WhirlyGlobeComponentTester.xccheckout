@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2826D789-3929-404F-A628-A6E10960C7B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WhirlyGlobeComponentTester</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F05463F2-3FB9-4C71-A86A-B7515AE83057</key>
+		<string>git+ssh://github.com/mousebird/WhirlyGlobe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WhirlyGlobe_Maply_Distribution_2_3/examples/WhirlyGlobeComponentTester/WhirlyGlobeComponentTester.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>53C3EBD1-EA89-463B-B196-494240C21FC8</key>
+		<string>../../../../resources</string>
+		<key>E5DB2824-AAE9-4A87-9669-5E85C1B4BF77</key>
+		<string>../../../../third-party/AFNetworking</string>
+		<key>F05463F2-3FB9-4C71-A86A-B7515AE83057</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git+ssh://github.com/mousebird/WhirlyGlobe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F05463F2-3FB9-4C71-A86A-B7515AE83057</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E5DB2824-AAE9-4A87-9669-5E85C1B4BF77</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AFNetworking</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>53C3EBD1-EA89-463B-B196-494240C21FC8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>resources</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F05463F2-3FB9-4C71-A86A-B7515AE83057</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WhirlyGlobe2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
